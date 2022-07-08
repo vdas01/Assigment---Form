@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+     width:40vw;
+     padding: 20px;
+}
+.head{
+    background: rgb(165,235,124);
+background: linear-gradient(45deg, rgba(165,235,124,1) 32%, rgba(139,220,233,1) 65%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px;
+    text-transform: uppercase;
+}
+.mb-3{
+    position: relative;
+}
+.mb-3 input:focus{
+    border: 2px solid black;
+}
+.circle{
+    color: red;
+    font-size: 1.3rem;
+    position: absolute;
+    right:11px;
+    top: 36px;
+}
+.check{
+    color: green;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 11px;
+    top: 36px;
+}
+.mb-3 .success .form-control{
+    border-color: green;
+}

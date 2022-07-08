@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid bg-light">
+           <div class="box">
+            <div class="head">
+                <h2>Registration Form</h2>
+            </div>
+                <form id="form">
+                    <div class="mb-3 success">
+                      <label for="username" class="form-label">Username</label>
+                      <input type="text" class="form-control" id="username" placeholder="write your username" >
+                      <ion-icon name="alert-circle-sharp" class="circle"></ion-icon>
+                      <ion-icon name="checkbox-sharp" class="check"></ion-icon>
+                      <small>Wrong</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="write your email">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <ion-icon name="alert-circle-sharp" class="circle"></ion-icon>
+                        <ion-icon name="checkbox-sharp" class="check"></ion-icon>
+                        <small>Wrong</small>                    
+                      </div>  
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="write your phone number" >
+                        <ion-icon name="alert-circle-sharp" class="circle"></ion-icon>
+                      <ion-icon name="checkbox-sharp" class="check"></ion-icon>
+                      <small>Wrong</small>
+                      </div>
+                    <div class="mb-3">
+                      <label for="password1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="type your password">
+                      <ion-icon name="alert-circle-sharp" class="circle"></ion-icon>
+                      <ion-icon name="checkbox-sharp" class="check"></ion-icon>
+                      <small>Wrong</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password1" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="cpassword" placeholder="type your password">
+                        <ion-icon name="alert-circle-sharp" class="circle"></ion-icon>
+                        <ion-icon name="checkbox-sharp" class="check"></ion-icon>
+                        <small>Wrong</small>
+                      </div>
+                    <button type="submit" class="btn btn-primary sbtn">Submit</button>
+                  </form>
+           </div>
+    </div> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    <script src="index.js"></script>  
+</body>
+</html>
